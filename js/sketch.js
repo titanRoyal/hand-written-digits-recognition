@@ -46,15 +46,6 @@ function preload() {
 
 function setup() {
   createCanvas(400, 400);
-  // img = createImage(28, 28)
-  // img.loadPixels()
-  // for (var i = 0; i < size; i++) {
-  //   img.pixels[i * 4 + 0] = 255
-  //   img.pixels[i * 4 + 1] = 255
-  //   img.pixels[i * 4 + 2] = 255
-  //   img.pixels[i * 4 + 3] = training_img[10][i]
-  // }
-  // img.updatePixels()
   background(0);
   stroke(255)
   strokeWeight(15)
